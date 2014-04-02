@@ -2,8 +2,8 @@ package http
 
 import (
 	"encoding/json"
-	"github.com/codegangsta/martini"
-	"github.com/codegangsta/martini-contrib/render"
+	"github.com/go-martini/martini"
+	"github.com/martini-contrib/render"
 	"github.com/ulricqin/falcon-eye/funcs"
 	"github.com/ulricqin/falcon-eye/global"
 	"github.com/ulricqin/goutils/logtool"
