@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+# WORKSPACE=$(cd $(dirname $0)/; pwd)
+
+nohup ./falcon_eye -c cfg.ini >> falcon_eye.log 2>&1 &
