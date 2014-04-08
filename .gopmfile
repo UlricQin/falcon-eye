@@ -1,0 +1,13 @@
+[target]
+path = github.com/ulricqin/falcon-eye
+
+[deps]
+github.com/ulricqin/goutils=
+github.com/ulricqin/falcon=
+github.com/astaxie/beego=
+github.com/go-martini/martini=
+github.com/martini-contrib/render=
+
+[res]
+include=templates|public
+
