@@ -22,5 +22,6 @@ cd /tmp/qinxh/release_falcon_eye/falcon_eye
 
 *too complicated?* use gopm(https://github.com/gpmgo/gopm) and:
 ```
-gopm build && ./falcon-eye
+git clone https://github.com/UlricQin/falcon-eye.git
+cd falcon-eye && gopm build && ./falcon-eye
 ```
