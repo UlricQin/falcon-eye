@@ -19,3 +19,8 @@ cd /tmp/qinxh/release_falcon_eye/falcon_eye
 ./startup
 # default http port is: 1988. goto: http://localhost:1988
 ```
+
+*too complicated?* use gopm(https://github.com/gpmgo/gopm) and:
+```
+gopm build && ./falcon-eye
+```
