@@ -6,5 +6,5 @@ import (
 )
 
 func PortIsListen(port int64) bool {
-    return slicetool.SliceContainsInt64(collector.ListenPorts(), port)
+	return slicetool.SliceContainsInt64(collector.ListenPorts(), port)
 }

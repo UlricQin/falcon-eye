@@ -14,7 +14,7 @@ func CfgMemRouter() {
 		}
 		memFree := mem.MemFree + mem.Buffers + mem.Cached
 		memUsed := mem.MemTotal - memFree
-		return RenderDataDto([]interface{}{mem.MemTotal / 1024, memUsed / 1024, memFree / 1024})
+		return RenderDataDto([]interface{}{mem.MemTotal / 1024 / 1024, memUsed / 1024 / 1024, memFree / 1024 / 1024})
 	})
 
 }
