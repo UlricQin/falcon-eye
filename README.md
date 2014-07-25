@@ -21,4 +21,11 @@ cd falcon-eye && go build
 ```
 git clone https://github.com/UlricQin/falcon-eye.git
 cd falcon-eye && gopm build && ./falcon-eye
+
+# -or-
+# if u use amd64_linux
+
+wget http://shuxiazi.oss-cn-hangzhou.aliyuncs.com/bin/falcon-eye.tar.gz
+tar zxf falcon-eye.tar.gz && ./control start
+
 ```
