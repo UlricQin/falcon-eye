@@ -12,8 +12,9 @@ cd $GOPATH/src/github.com/ulricqin && git clone https://github.com/UlricQin/falc
 go get github.com/ulricqin/falcon-eye/...
 
 cd falcon-eye && go build
-./startup
+./control start
 # default http port is: 1988. goto: http://localhost:1988
+# control usage: ./control start|stop|restart|status
 ```
 
 *too complicated?* use gopm(https://github.com/gpmgo/gopm) and:
