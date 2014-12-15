@@ -29,3 +29,8 @@ wget http://shuxiazi.oss-cn-hangzhou.aliyuncs.com/bin/falcon-eye.tar.gz
 tar zxf falcon-eye.tar.gz && ./control start
 
 ```
+
+# update
+
+wo move to [falcon-agent](https://github.com/open-falcon/agent)
+
