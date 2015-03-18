@@ -32,5 +32,5 @@ tar zxf falcon-eye.tar.gz && ./control start
 
 # update
 
-wo move to [falcon-agent](https://github.com/open-falcon/agent)
+we move to [falcon-agent](https://github.com/open-falcon/agent)
 
