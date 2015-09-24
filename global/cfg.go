@@ -30,7 +30,7 @@ func initVersion() {
 }
 
 func initHttpConfig() {
-	HttpPort = Config.String("http::port")
+	HttpPort = Config.String("port")
 	if HttpPort == "" {
 		log.Warn("http::port is blank. use default 1988")
 		HttpPort = "1988"
@@ -43,14 +43,14 @@ func initCollectBaseInfoInterval() {
 		return
 	}
 
-	str := Config.String("collector::base_interval_in_seconds")
+	str := Config.String("base_interval_in_seconds")
 	if str == "" {
 		log.Warn("collector::base_interval_in_seconds is blank. use default 1s")
 		CollBaseInfoInterval = 1 * time.Second
 		return
 	}
 
-	v, err := Config.Int64("collector::base_interval_in_seconds")
+	v, err := Config.Int64("base_interval_in_seconds")
 	if err != nil {
 		log.Warn("collector::base_interval_in_seconds config error")
 		os.Exit(1)
