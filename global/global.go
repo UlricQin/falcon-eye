@@ -29,7 +29,7 @@ func InitEnv(configPath string) {
 	}
 
 	if !UseSystemConfig {
-		log.SetLevelWithDefault(Config.String("log::level"), "info")
+		log.SetLevelWithDefault(Config.String("level"), "info")
 	} else {
 		log.SetLevel("info")
 	}
@@ -38,7 +38,7 @@ func InitEnv(configPath string) {
 
 	defaultPidPath := "/var/run/falcon_eye/falcon_eye.pid"
 	if !UseSystemConfig {
-		if iniPidPath := Config.String("common::pid"); iniPidPath != "" {
+		if iniPidPath := Config.String("pid"); iniPidPath != "" {
 			defaultPidPath = iniPidPath
 		}
 	}
