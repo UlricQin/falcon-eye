@@ -9,7 +9,7 @@ import (
 	"runtime"
 )
 
-var Config config.ConfigContainer
+var Config config.Configer
 var UseSystemConfig bool = false
 
 func InitEnv(configPath string) {
